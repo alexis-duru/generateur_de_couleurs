@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu";
+}
+
+body {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .main {
+  width: 450px;
+  height: 350px;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .main button {
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  transform: scale(1);
+  background-color: white;
+  transition: 0.5s;
+}
+body .main button:hover {
+  transform: scale(1.1);
+}
+body .main button:active {
+  background-color: black;
+  transition: 0s;
+  color: white;
+}
+body #code {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
